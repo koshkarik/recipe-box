@@ -1,0 +1,40 @@
+ul {
+	list-style: none;
+	display: block;
+	margin: 20px auto;
+	width: 80%;
+}
+li {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Acme', sans-serif;
+	margin-top: 20px;
+	padding: 10px;
+	background: #413472;
+	color: #fff;
+	cursor: pointer;
+}
+
+.cook-box {
+	max-height: 70vh;
+	overflow-y: scroll;
+}
+
+.fade-enter {
+	opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+	opacity: 1;
+	-webkit-transition: opacity 300ms ease-in;
+	transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+	opacity: 1;
+}
+.fade-exit.fade-exit-active {
+	opacity: 0.01;
+	-webkit-transition: opacity 300ms ease-in;
+	transition: opacity 300ms ease-in;
+}
